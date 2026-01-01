@@ -7,7 +7,7 @@ import threading
 # -------------------------------
 # Discord Bot Setup
 # -------------------------------
-TOKEN = "MTQ1NjA0NDE4MzI0MzQ1NjU3NA.GkTnQW.-1mwrW-7oZyPzm4nDUZGSnGCsS5zR7lfQ36Bfc"  # <-- Put your Discord bot token here
+TOKEN = "MTQ1NjA0NDE4MzI0MzQ1NjU3NA.GgZ83d.-2OSNvTafOl39XWk7or6CwcgHEiuUA2Bu0GzUw"  # <-- Put your Discord bot token here
 ALLOWED_CHANNEL_ID = 1456062237822287972  # Only allow commands in this channel
 
 intents = discord.Intents.default()
@@ -63,3 +63,4 @@ async def run(interaction: discord.Interaction, msg: str):
     print(f"Message from {interaction.user}: {msg}")
 
 bot.run(TOKEN)
+
